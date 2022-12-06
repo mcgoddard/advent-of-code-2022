@@ -40,7 +40,7 @@ func main() {
 		"Y": 2,
 		"Z": 3,
 	}
-	loose_score := 0
+	lose_score := 0
 	draw_score := 3
 	win_score := 6
 
@@ -60,7 +60,7 @@ func main() {
 		} else if opponent == beats[me] {
 			outcome_score = win_score
 		} else {
-			outcome_score = loose_score
+			outcome_score = lose_score
 		}
 		shape_score := shape_scores[me]
 		return outcome_score + shape_score

@@ -37,7 +37,7 @@ func main() {
 		"A": "Paper",
 		"B": "Scissors",
 	}
-	looses := map[string]string{
+	loses := map[string]string{
 		"A": "Scissors",
 		"B": "Rock",
 		"C": "Paper",
@@ -47,7 +47,7 @@ func main() {
 		"Paper":    2,
 		"Scissors": 3,
 	}
-	loose_score := 0
+	lose_score := 0
 	draw_score := 3
 	win_score := 6
 	win_result := "Z"
@@ -72,8 +72,8 @@ func main() {
 			outcome_score = win_score
 			me_shape = beats[opponent]
 		} else {
-			outcome_score = loose_score
-			me_shape = looses[opponent]
+			outcome_score = lose_score
+			me_shape = loses[opponent]
 		}
 		shape_score := shape_scores[me_shape]
 		return outcome_score + shape_score
