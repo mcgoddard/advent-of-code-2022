@@ -19,4 +19,6 @@ use (
 	./day_8_part_2
 	./day_9_part_1
 	./day_9_part_2
+	./day_10_part_1
+	./day_10_part_2
 )
